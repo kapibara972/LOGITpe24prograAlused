@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aroundearth", "aroundearth\aroundearth.csproj", "{5955FAFC-71F1-456D-9515-48FE240C83EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5955FAFC-71F1-456D-9515-48FE240C83EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5955FAFC-71F1-456D-9515-48FE240C83EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5955FAFC-71F1-456D-9515-48FE240C83EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5955FAFC-71F1-456D-9515-48FE240C83EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93319C93-D91F-40DC-98B0-B6C55B13481C}
+	EndGlobalSection
+EndGlobal
