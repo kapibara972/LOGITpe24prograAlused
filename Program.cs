@@ -1,58 +1,49 @@
-﻿namespace koduTöö
+﻿namespace RandomNumber
 {
-       internal class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello, World!");
 
-            Console.WriteLine("Sisesta esimene arv:");
-            double arv1 = Convert.ToDouble(Console.ReadLine());
+            
+            //nüüd tuleb kasutada switchi, et näidata numbrit 1-st kuni 6-1
 
-            Console.WriteLine("Sisesta teine arv:");
-            double arv2 = Convert.ToDouble(Console.ReadLine());
+            
+               int number = new Random().Next(1, 6);
 
-            Console.WriteLine("Vali tehe (+, -, *, /):");
-            char mark = Convert.ToChar(Console.ReadLine());
+            switch (number)
+            {
+                case 1:
+                    Console.WriteLine("veeraetasid nr" + number);
+                        break;
+                case 2:
+                    Console.WriteLine("veeraetasid nr" + number);
+                    break;
+                case 3:
+                    Console.WriteLine("veeraetasid nr" + number);
+                    break;
+                case 4:
+                    Console.WriteLine("veeraetasid nr" + number);
+                    break;
+                case 5:
+                    Console.WriteLine("veeraetasid nr" + number);
+                    break;
+                case 6:
+                    Console.WriteLine("veeraetasid nr" + number);
+                    break;
 
-            double tulemus;
 
-            if (mark == '+')
-            {
-                tulemus = arv1 + arv2;
-                Console.WriteLine("Tulemus: " + tulemus);
-            }
-            else if (mark == '-')
-            {
-                tulemus = arv1 - arv2;
-                Console.WriteLine("Tulemus: " + tulemus);
-            }
-            else if (mark == '*')
-            {
-                tulemus = arv1 * arv2;
-                Console.WriteLine("Tulemus: " + tulemus);
-            }
-            else if (mark == '/')
-            {
-                if (arv2 != 0)
-                {
-                    tulemus = arv1 / arv2;
-                    Console.WriteLine("Tulemus: " + tulemus);
-                }
-                else
-                {
-                    Console.WriteLine("Bum bum oled nulliga ei saa jagada! ");
-                }
-            }
-            else
-            {
-                Console.WriteLine("Vale tehe!");
+                default:
+                    Console.WriteLine(" error ");
+                    break;
             }
 
+            
+
+            
 
 
         }
-        
-
     }
-
 }
