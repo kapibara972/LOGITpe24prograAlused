@@ -63,7 +63,8 @@ elif ( kohtTuh == "jah"):
         
         
         print ("kokku" ,summa,)
-        
+        print (" maksa")
+        maksa = input()
         
     elif ( voileib == "arvuti"):
         pool = randint ( 0,1)
@@ -76,7 +77,7 @@ elif ( kohtTuh == "jah"):
         kurk = randint ( 0,1)
         if kurk == 1:
             summa += 0.75
-            print (" kurk -▄▄▄▄ ▄▄▄")
+            print (" kurk - ▄▄▄▄ ▄▄▄")
         tomat = randint ( 0,1)
         if tomat == 1:
             summa += 0.75
@@ -86,13 +87,15 @@ elif ( kohtTuh == "jah"):
             summa += 0.75
             print ("peekon- ~-,._.,-~~-,. ")
         
-        print ("kokku" ,summa,)
-    
+        print ("kokku" ,summa, )
+        print (" maksa")
+        maksa = input()
         
-    
+    if (maksa == "jah"):
+        print (" hakka maksma")
         
-                
-                
-    
-                
+    else:
+        print ( " ma kutsun FBI, maksa nüüd")
+        
+        
     
